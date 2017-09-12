@@ -17,6 +17,7 @@ function(){}.call(this);
 > ```
   var root = this;
   ```
+  
 把刚挂载到全局的root身上的root._ 赋值给previousUnderscore
 >```
 var previousUnderscore = root._ ;
