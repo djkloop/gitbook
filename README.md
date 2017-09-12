@@ -1,4 +1,4 @@
-# 学习UNDERSCORE.JS源码
+<div style="text-align:center">学习UNDERSCORE.JS源码</div>
 
 ![](/assets/underscore.png)
 
