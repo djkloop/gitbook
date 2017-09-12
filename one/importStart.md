@@ -12,6 +12,18 @@ http://blog.csdn.net/zhengyinhui100/article/details/7837127
 function(){}.call(this);
 ```
 
+函数里 首先将this赋值给局部变量的 root
+```
+var root = this;
+```
+
+
+
+
+
+
+
+
 
 
 
