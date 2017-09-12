@@ -19,6 +19,7 @@ function(){}.call(this);
   ```
   
 把刚挂载到全局的root身上的root._ 赋值给previousUnderscore
+这玩意在后面的`_.noConflict`方法中有使用...如果用过jQ的应该都能知道这个玩意是干啥的...
 >```
 var previousUnderscore = root._ ;
 ```
