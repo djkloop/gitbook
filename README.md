@@ -1,4 +1,4 @@
-<div align=center>学习UNDERSCORE.JS源码</div>
+<div align=center style="color:aqua">学习UNDERSCORE.JS源码</div>
 
 ![](/assets/underscore.png)
 
