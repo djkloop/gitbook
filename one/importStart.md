@@ -13,9 +13,14 @@ function(){}.call(this);
 ```
 
 函数里 首先将this赋值给局部变量的 root
+这里root的值在客户端里面是`window`,服务端一般是指node模块中的`exports`
 > ```
-var root = this;
+  var root = this;
   ```
+把刚挂载到全局的root身上的root._ 赋值给previousUnderscore
+>```
+var previousUnderscore = root._ ;
+```
 
 
 
